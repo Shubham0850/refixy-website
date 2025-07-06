@@ -65,7 +65,7 @@ const Navbar = () => {
 
               <div className="flex items-center gap-2">
                 <a
-                  href="https://github.com/your-org/your-repo"
+                  href="https://github.com/Shubham0850/refixy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

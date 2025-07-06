@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-end gap-6 text-sm text-gray-600 mb-6 md:mb-0">
-            <a href="https://github.com/refix-app" className="hover:text-black transition-colors">GitHub</a>
+            <a href="https://github.com/Shubham0850/refixy" className="hover:text-black transition-colors">GitHub</a>
             <a href="/privacy" className="hover:text-black transition-colors">Privacy</a>
           </div>
         </div>
