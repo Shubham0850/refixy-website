@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Rocoleta";
+  src: url("/fonts/Recoleta-RegularDEMO.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/AvenirLTStd-Roman.otf");
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +33,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+font-family: "Avenir", sans-serif;
+}
+
+h1, h2 {
+   font-family: "Rocoleta", sans-serif;
 }
