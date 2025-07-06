@@ -1,117 +1,50 @@
 # Refixy Website
 
-This is the official website for [Refixy](https://refixy.com), an open-source desktop writing tool that works silently in the background to improve your writing without distractions.
+![Refixy Banner](public/refixy-og.png)
 
-## About Refixy
+Official website for [Refixy](https://github.com/Shubham0850/refixy) - a lightweight menu bar app that silently improves your writing on macOS.
 
-Refixy is a privacy-focused, Rust-based desktop application that helps you write better without the usual interruptions of traditional grammar tools. Simply select text, press a key, and get improved writing while keeping your focus unbroken.
+## About
 
-### Key Features
+Refixy works silently in the background. Select text, press `Cmd+Shift+E`, and get instant AI-powered corrections without any distractions.
 
-- **Built on Rust** - For blazing speed, privacy, and reliability
-- **No underlines** - No distracting grammar marks or squiggles
-- **Data stays private** - We never store or see your writing
-- **Works with any app** - One shortcut, every app on your Mac
-- **Open Source** - Transparent and community-driven
+## Features
+
+- **Silent Operation** - No popups or underlines
+- **System-wide** - Works in any macOS app  
+- **Privacy-focused** - Your data stays private
+- **Open Source** - Built with Rust
 
 ## Tech Stack
 
-This website is built with:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Lucide React
 
-- [Next.js 14](https://nextjs.org/) - React framework with App Router
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Lucide React](https://lucide.dev/) - Beautiful icons
-- [Squircle.js](https://squircle.js.org/) - Smooth rounded corners
+## Development
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm, yarn, pnpm, or bun
-
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/refixy-website.git
-cd refixy-website
-```
-
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
 
-3. Run the development server:
-```bash
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Project Structure
-
-```
-refixy-website/
-├── src/
-│   ├── app/                 # Next.js App Router pages
-│   ├── components/          # React components
-│   └── lib/                # Utility functions
-├── public/                 # Static assets
-└── package.json
-```
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Contributing
 
-We welcome contributions! This is an open-source project and we appreciate any help you can provide.
-
-### How to Contribute
-
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-
-- Follow the existing code style and conventions
-- Ensure all tests pass
-- Update documentation as needed
-- Keep commits clean and descriptive
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
 ## Links
 
-- **Website**: [https://refixy.com](https://refixy.com)
-- **Desktop App**: [https://github.com/your-username/refixy](https://github.com/your-username/refixy)
-- **Issues**: [GitHub Issues](https://github.com/your-username/refixy-website/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/refixy-website/discussions)
-
-## Support
-
-If you have any questions or need help, please:
-
-1. Check the [GitHub Issues](https://github.com/your-username/refixy-website/issues) for existing solutions
-2. Create a new issue if your problem isn't already addressed
-3. Join our community discussions
+- **Desktop App**: [https://github.com/Shubham0850/refixy](https://github.com/Shubham0850/refixy)
+- **Website**: [https://refixy.xyz](https://refixy.xyz)
 
 ---
 
