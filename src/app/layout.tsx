@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   publisher: "Refixy",
   robots: "index, follow",
   icons: {
-    icon: "/refixy.png",
-    shortcut: "/refixy.png",
-    apple: "/refixy.png",
+    icon: "/refixy-ico.png",
+    shortcut: "/refixy-ico.png",
+    apple: "/refixy-ico.png",
   },
   openGraph: {
     title: "Refixy - Writing that works silently",
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/refixy.png",
-        width: 512,
-        height: 512,
-        alt: "Refixy Logo",
+        url: "/refixy-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Refixy - Writing that works silently",
       },
     ],
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Refixy - Writing that works silently",
     description: "Unlike traditional grammar tools, Refixy works silently in the background. Select text, press a key, get better writing.",
-    images: ["/refixy.png"],
+    images: ["/refixy-og.png"],
   },
 };
 

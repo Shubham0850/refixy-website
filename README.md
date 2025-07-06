@@ -1,9 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Refixy Website
+
+This is the official website for [Refixy](https://refixy.com), an open-source desktop writing tool that works silently in the background to improve your writing without distractions.
+
+## About Refixy
+
+Refixy is a privacy-focused, Rust-based desktop application that helps you write better without the usual interruptions of traditional grammar tools. Simply select text, press a key, and get improved writing while keeping your focus unbroken.
+
+### Key Features
+
+- **Built on Rust** - For blazing speed, privacy, and reliability
+- **No underlines** - No distracting grammar marks or squiggles
+- **Data stays private** - We never store or see your writing
+- **Works with any app** - One shortcut, every app on your Mac
+- **Open Source** - Transparent and community-driven
+
+## Tech Stack
+
+This website is built with:
+
+- [Next.js 14](https://nextjs.org/) - React framework with App Router
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Lucide React](https://lucide.dev/) - Beautiful icons
+- [Squircle.js](https://squircle.js.org/) - Smooth rounded corners
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/refixy-website.git
+cd refixy-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
@@ -14,23 +61,58 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+refixy-website/
+├── src/
+│   ├── app/                 # Next.js App Router pages
+│   ├── components/          # React components
+│   └── lib/                # Utility functions
+├── public/                 # Static assets
+└── package.json
+```
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions! This is an open-source project and we appreciate any help you can provide.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How to Contribute
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+### Development Guidelines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Follow the existing code style and conventions
+- Ensure all tests pass
+- Update documentation as needed
+- Keep commits clean and descriptive
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Links
+
+- **Website**: [https://refixy.com](https://refixy.com)
+- **Desktop App**: [https://github.com/your-username/refixy](https://github.com/your-username/refixy)
+- **Issues**: [GitHub Issues](https://github.com/your-username/refixy-website/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/your-username/refixy-website/discussions)
+
+## Support
+
+If you have any questions or need help, please:
+
+1. Check the [GitHub Issues](https://github.com/your-username/refixy-website/issues) for existing solutions
+2. Create a new issue if your problem isn't already addressed
+3. Join our community discussions
+
+---
+
+Made with ❤️ by the Refixy team
